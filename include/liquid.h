@@ -9107,13 +9107,13 @@ void SYNTH(_mix_down)(SYNTH() _q, TC _x, TC *_y);                           \
 void SYNTH(_mix_block_up)(SYNTH() _q,                                       \
                           TC *_x,                                           \
                           TC *_y,                                           \
-                          unsigned int _N);                                 \
+                          unsigned int ___N);                                 \
                                                                             \
 /* Rotate input vector down by SYNTH angle (stepping)     */                \
 void SYNTH(_mix_block_down)(SYNTH() _q,                                     \
                             TC *_x,                                         \
                             TC *_y,                                         \
-                            unsigned int _N);                               \
+                            unsigned int ___N);                               \
                                                                             \
 void SYNTH(_spread)(SYNTH() _q,                                             \
                     TC _x,                                                  \
